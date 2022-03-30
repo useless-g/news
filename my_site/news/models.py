@@ -20,7 +20,7 @@ class News(models.Model):
 
 
 class Category(models.Model):
-    title = models.CharField(max_length=150, verbose_name='наименование',db_index=True)
+    title = models.CharField(max_length=150, verbose_name='наименование', db_index=True)
 
     def __str__(self):
         return self.title

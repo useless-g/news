@@ -125,5 +125,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # папка с файлами
 MEDIA_URL = '/media/'  # маршрут папки
-
-
